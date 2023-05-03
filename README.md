@@ -1,3 +1,3 @@
-# A first-level heading
+# CS 361 - Instructions
 ## A second-level heading
 ### A third-level heading
