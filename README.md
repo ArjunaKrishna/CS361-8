@@ -14,3 +14,4 @@ For optimal usage, the user should run Client.py on one terminal and Server.py o
 
 UML Sequence Diagram: 
 
+![Screenshot 2023-05-03 082810](https://user-images.githubusercontent.com/102319952/235946919-1729fe1b-97bf-44df-ab46-e222e0343072.png)
