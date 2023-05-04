@@ -12,6 +12,10 @@ Server.py: This file will process the data received from the client and send a r
 
 For optimal usage, the user should run Client.py on one terminal and Server.py on the other. 
 
+Data that can be sent should be strings without any spaces. They can be either of these four: MoondropBlessing2, 7HzTimeless, EtymoticER2SE/ER2XR, MoondropAria. 
+
+Data will be received as a link to an images showing that particular IEM. If the user sent something random other than these four IEM types, he/she will get this message "That's not one of the available choices!". 
+
 UML Sequence Diagram: 
 
-![Screenshot 2023-05-03 082810](https://user-images.githubusercontent.com/102319952/235946919-1729fe1b-97bf-44df-ab46-e222e0343072.png)
+![image](https://user-images.githubusercontent.com/102319952/236111138-67163f1e-d585-4a55-a1e0-b39ee02f36c3.png)
