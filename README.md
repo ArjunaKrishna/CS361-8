@@ -4,18 +4,13 @@ Download and Install Pycharm and a python version.
 
 pip install python 
 
-This is a very simple server and client program. For sending data, the server file must be ran first and then the client file. After that, the user can enter an IEM they like and get the full path of the image. 
+1. Start the Server: Open PyCharm and create a new Python project. Create a new file called "Server.py" in the project. Copy the code for the server implementation into the "Server.py" file. Run the "Server.py" file. This will start the server and make it ready to receive requests. 
 
-Client.py: This file will take the data from the user and send it to the server. After getting the response from the server, this file will display the full path to the user. 
+2. Start the Client: Open a new terminal or command prompt. Navigate to the directory where you have the Python project. Create a new file called "Client.py" in the same directory. Copy the code for the client implementation into the "Client.py" file. Run the "Client.py" file. This will start the client and allow you to send requests to the server. 
 
-Server.py: This file will process the data received from the client and send a response containing the file path to the client. 
-
-For optimal usage, the user should run Client.py on one terminal and Server.py on the other. 
-
-Data that can be sent should be strings without any spaces. They can be either of these four: MoondropBlessing2, 7HzTimeless, EtymoticER2SE/ER2XR, MoondropAria. 
-
-Data will be received as a link to an images showing that particular IEM. If the user sent something random other than these four IEM types, he/she will get this message "That's not one of the available choices!". 
+Sending and Receiving Requests: With the server and client running in separate terminals, you can now send requests for IEM data. The available choices for IEMs are: MoondropBlessing2, 7HzTimeless, EtymoticER2SE/ER2XR, and MoondropAria. In the client terminal, enter one of the available IEM types as a string without any spaces. The client will send the request to the server. The server will receive the request and process it. The server will generate a response containing the full path to an image representing the requested IEM. The server will send the response back to the client. The client will receive the response from the server. The client will display the full path received from the server to the user. If the user enters an IEM type that is not one of the available choices, the client will display the message "That's not one of the available choices!".
 
 UML Sequence Diagram: 
 
-![image](https://user-images.githubusercontent.com/102319952/236111138-67163f1e-d585-4a55-a1e0-b39ee02f36c3.png)
+![image](https://github.com/ArjunaKrishna/CS361-8/assets/102319952/bb7e82e1-e4a5-41df-91ea-bd42566cf966)
+
